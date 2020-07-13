@@ -1,0 +1,140 @@
+<html><head> 
+  <meta name="viewport" content="width=device-width initial-scale = 1"> 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/blog.css"> 
+  <title>Blogging</title> 
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script> 
+  <script src="js/jquery-1.11.0.min.js"></script> 
+  <script src="js/jquery-ui.min.js"></script> 
+  <script src="js/animated_bg.js"></script>
+  <script src="js/blog.js"></script> 
+ </head> 
+ <body> 
+  <div class="overlay"> 
+   <h1>Rachel's Blog</h1> 
+  </div> 
+  <div align="center"> 
+   <div class="title" style="height:' '; " id="title"> 
+    <img src="https://i.postimg.cc/BQ8rh7Wy/Screenshot-20200428-130955-1.jpg" class="img" style="display:' ';"> 
+    <h1 id="head">Rachel oyugi</h1> 
+    <div id="text">
+      My Blog 
+    </div> 
+   </div> 
+  </div> 
+  <div id="relative" style="margin-top: 290px"> 
+   <p>Hello World I am Rachel Oyugi and im inlove with Computers. My passion is in cybersecurity Ethical hacking but i settled to Learning how to code <br> to be able to understand more How big applications are made all over the world and to be able to implement it through being part of the solution by building sustainable systems for human survival. When im not coding im out collecting small precious stones im a Nature Lover <br> Im also rooted deeply into poetry to be able to find meaning in life and for self expression <br> I really love watching movies.</p> 
+   <h2>My Skills</h2> 
+   <ul> 
+    <li>HTML &amp; CSS</li> 
+    <progress value="75" max="100"></progress> 
+    <li>Javascript</li> 
+    <progress value="60" max="100"></progress> 
+    <li>C#</li> 
+    <progress value="50" max="100"></progress> 
+    <li>Jquery</li> 
+    <progress value="50" max="100"></progress> 
+    <li>Machine Learning</li> 
+    <progress value="50" max="100"></progress> 
+    <li>Data Science</li> 
+    <progress value="50" max="100"></progress> 
+    <li>Angular&amp;NestJs</li> 
+    <progress value="50" max="100"></progress> 
+    <li>Kotlin</li> 
+    <progress value="50" max="100"></progress> 
+    <li>Hardware Electronics&amp;Design</li> 
+    <progress value="50" max="100"></progress> 
+    <li>Php</li> 
+    <progress value="50" max="100"></progress> 
+    <li>python</li> 
+    <progress value="70" max="100"></progress> 
+    <li>React&amp;Redux</li> 
+    <progress value="50" max="100"></progress> 
+    <li>nodeJs</li> 
+    <progress value="50" max="100"></progress>
+       <li>SQL</li> 
+    <progress value="50" max="100"></progress>
+   </ul> 
+   <div class="section"> 
+    <form class="back"> 
+     <br> 
+     <br> 
+     <h4>SEND ME A MESSAGE</h4> 
+     <br> 
+     <input type="text" name="name" placeholder="Your Name" required=""> 
+     <br> 
+     <br> 
+     <input type="email" name="email" placeholder="Your Email" required=""> 
+     <br> 
+     <br> 
+     <input type="text" name="subject" placeholder="Subject" required=""> 
+     <br> 
+     <br> 
+     <textarea placeholder="Your Message"></textarea> 
+     <br> 
+     <br> 
+     <br> 
+     <button type="submit" class="submit">SUBMIT<i class="fa fa-paper-plane"></i></button> 
+     <br> 
+     <br> 
+    </form> 
+   </div> 
+   <!-- Form section end --> 
+   <!-- Contacts section start --> 
+   <div class="dcontainer" id="contacts"> 
+    <p>Follow me on social Media</p> 
+    <div class="icon"> 
+     <div class="ico"> 
+      <i class="fa fa-linkedin" aria-hidden="true"></i> 
+     </div> 
+     <div class="ico"> 
+      <i class="fa fa-google" aria-hidden="true"></i> 
+     </div> 
+     <div class="ico"> 
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+     </div> 
+     <div class="ico"> 
+      <i class="fa fa-instagram" aria-hidden="true"></i> 
+     </div> 
+     <div class="ico"> 
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+     </div> 
+     <div class="ico"> 
+      <i class="fa fa-github" aria-hidden="true"></i> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Contacts section end --> 
+  <div class="copyright">
+    © 2020 My Blog. All rights reserved. 
+  </div> 
+  <script>
+             
+    TweenMax.to(".overlay h1", 2, {
+        opacity: 0,
+        y: -60, 
+        ease: Expo.easeInOut
+    })
+            TweenMax.to(".overlay", 2, {
+        delay: 1.5,
+        top: "-100vh", 
+        ease: Expo.easeInOut
+    })
+            TweenMax.from(".title", 2, {
+        delay: 2.4,
+        opacity: 0 ,
+        y: 20, 
+        ease: Expo.easeInOut
+    })
+             TweenMax.from("#relative", 2, {
+        delay: 3.2,
+        opacity: 0 ,
+        y: 20, 
+        ease: Expo.easeInOut
+    })
+    </script> 
+ 
+</body></html>
